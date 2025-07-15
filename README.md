@@ -21,8 +21,21 @@ This project detects faces in images, videos, or webcam streams and applies a bl
 ## 📁 Project Structure
 .
 ├── HumanVision2.py       # Main script
+
 └── output                # Output directory (auto-created)
+
 └──requirements.txt       # to install libraries that are needed for this project
+
+
+## 📷 Usage
+
+
+-Blur face in an image
+    -python HumanVision2.py --mode image --filePath path/to/image.jpg
+-Blur face in a video
+    -python HumanVision2.py --mode video --filePath path/to/video.mp4
+-Blur face from webcam (default)
+    -python HumanVision2.py
 
 
 Install dependencies:
