@@ -18,13 +18,16 @@ This project detects faces in images, videos, or webcam streams and applies a bl
 - OpenCV
 - MediaPipe
 
+## 📁 Project Structure
+.
+├── HumanVision2.py       # Main script
+└── output                # Output directory (auto-created)
+└──requirements.txt       # to install libraries that are needed for this project
+
+
 Install dependencies:
 
 ```bash
 pip install opencv-python mediapipe
 
-## 📁 Project Structure
-.
-├── HumanVision2.py       # Main script
-└── output                # Output directory (auto-created)
-└──requirements.txt       
+    
